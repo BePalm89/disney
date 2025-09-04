@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --font-family: "Poppins", sans-serif;
+
+  --color-primary: #65BFDA;
+  --color-secondary: #CBB1B4;
+
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  --font-size-xs: 12px;
+  --font-size-s: 16px;
+  --font-size-m: 18px;
+  --font-size-l: 24px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 48px;
+  --font-size-xxxl: 64px;
+
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  --spacing-xxs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-s: 1rem;
+  --spacing-m: 2rem;
+  --spacing-l: 3rem;
+  --spacing-xl: 4rem;
+  --spacing-xxl: 6rem;
+
+  --margin-xxs: var(--spacing-xxs);
+  --margin-xs: var(--spacing-xs);
+  --margin-s: var(--spacing-s);
+  --margin-m: var(--spacing-m);
+  --margin-l: var(--spacing-l);
+  --margin-xl: var(--spacing-xl);
+
+  --padding-xxs: var(--spacing-xxs);
+  --padding-xs: var(--spacing-xs);
+  --padding-s: var(--spacing-s);
+  --padding-m: var(--spacing-m);
+  --padding-l: var(--spacing-l);
+  --padding-xl: var(--spacing-xl);
+  --padding-xxl: var(--spacing-xxl);
+
+  --gap-xxs: var(--spacing-xxs);
+  --gap-xs: var(--spacing-xs);
+  --gap-s: var(--spacing-s);
+  --gap-m: var(--spacing-m);
+  --gap-l: var(--spacing-l);
+  --gap-xl: var(--spacing-xl);
+
+  --border-radius-xs: 4px;
+  --border-radius-s: 8px;
+  --border-radius-l: 16px;
+  --border-radius-xl: 50px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: var(--font-family);
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}

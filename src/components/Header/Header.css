@@ -1,0 +1,8 @@
+.header {
+ padding: var(--padding-s) var(--padding-m);
+}
+
+.logo {
+    width: 65px;
+    height: 55px;
+}

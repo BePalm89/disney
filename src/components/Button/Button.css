@@ -1,0 +1,22 @@
+.btn {
+    padding: var(--padding-xs) var(--padding-s);
+    border: none;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    border-radius: var(--border-radius-xs);
+    cursor: pointer;
+    font-size: var(--font-size-s);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-xs);
+    color: var(--color-white);
+}
+
+.btn.primary {
+    background-color: var(--color-primary);
+}
+
+.btn.secondary {
+    background-color: var(--color-secondary);
+}
