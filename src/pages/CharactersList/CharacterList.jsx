@@ -8,17 +8,14 @@ const CharacterList = () => {
     const [characters, setCharacters] = useState([]);
 
     useEffect(() => {
-        async function fetchCharacters() {
+        (async () => {
             try {
-                const response = await makeRequest({ endpoint: API_ENDPOINT.GET_ALL_CHARACTERS});
-                console.log(response);
+                const response = await makeRequest({ endpoint: API_ENDPOINT.GET_ALL_CHARACTERS });
                 setCharacters(response.data);
-
             } catch (err) {
                 console.error(err);
             }
-        };
-        fetchCharacters();
+        })();
     }, []);
 
     return (

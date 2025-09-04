@@ -3,7 +3,7 @@
     border: none;
     font-family: var(--font-family);
     text-transform: uppercase;
-    border-radius: var(--border-radius-xs);
+    border-radius: var(--border-radius-s);
     cursor: pointer;
     font-size: var(--font-size-s);
     display: flex;

@@ -1,0 +1,26 @@
+.landing-page-container {
+    height: calc(100vh - 184px);
+    background-image:
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url("images/disney.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-l);
+}
+
+.landing-page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lading-page-cta {
+    display: flex;
+    gap: var(--gap-m);
+}
